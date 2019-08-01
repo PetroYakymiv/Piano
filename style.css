@@ -9,3 +9,12 @@ body {
         -webkit-font-smoothing: antialiased;
         text-align: center;
 }
+
+h1 {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 400;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin: 0;
+    }
