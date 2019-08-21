@@ -18,3 +18,13 @@ h1 {
       text-transform: uppercase;
       margin: 0;
     }
+
+#piano-keys {
+    background-color: white;
+    height: 200px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 150px;
+    font-size: 20px;
+}
