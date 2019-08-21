@@ -39,7 +39,7 @@ h1 {
 
 #piano-keys:hover {
     	color: #fff;
-    	background: #333;
+    	background: #fecf6a;
     	tansition: all .3s linear;
     	-webkit-transition: all .3s linear;
     	-moz-transition: all .3s linear; 
