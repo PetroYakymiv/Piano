@@ -34,7 +34,8 @@ h1 {
     cursor: pointer;
     padding-top: 150px;
     font-size: 30px;
-    transition: all 0.2s;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
     
 } 
    
