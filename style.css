@@ -6,8 +6,14 @@
 body {
     background: #000;
     font-family: 'Noto Serif', serif;
-        -webkit-font-smoothing: antialiased;
-        text-align: center;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    margin-top: 100px;
 }
 
 h1 {
