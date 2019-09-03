@@ -4,9 +4,10 @@ function play(sound){
           audio.play();
  }
 
- function playNote(n){
-    const note = document.querySelector(`audio[data-key="${n.keyCode}"]`);
-          note.play();
- 
+ document.addEventListener("keydown", checkKeyPressed, false);
+function checkKeyPressed(e) {
+	if (e.keyCode === 65) {
+		alert("The 'a' key is pressed.");
+	}
 }
-window.addEventListener('keydown', playNote);
+ 
